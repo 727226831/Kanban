@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="data"
+            type="com.example.wkftv.DataBean" />
+    </data>
+    <LinearLayout
+        android:id="@+id/ll_layout"
+        android:orientation="horizontal"
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:textColor="@color/white"
+            android:text="@{data.item1}"
+            style="@style/tv_ar"
+            />
+        <TextView
+            android:textColor="@color/white"
+            android:text="@{data.item2}"
+
+            style="@style/tv_ar"
+            />
+
+        <TextView
+            android:layout_weight="9.5"
+            android:textColor="@color/white"
+            android:text="@{data.item3}"
+            style="@style/tv_ar" />
+        <TextView
+            android:textColor="@color/white"
+            android:layout_weight="8"
+            android:text="@{data.item4}"
+            style="@style/tv_ar" />
+
+        <TextView
+            android:layout_weight="9.5"
+            android:textColor="@color/white"
+            android:text="@{data.item5}"
+            style="@style/tv_ar" />
+        <TextView
+            android:textColor="@color/white"
+            android:text="@{data.item6}"
+            style="@style/tv_ar"/>
+
+        <TextView
+            android:layout_weight="9.5"
+            android:textColor="@color/white"
+            android:text="@{data.item7}"
+            style="@style/tv_ar" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+   <data></data>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SelectActivity">
+
+   <TextView
+       android:textColor="@color/black"
+       android:textSize="22sp"
+       android:layout_margin="10dp"
+       android:text="选择报表："
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+   <RadioGroup
+      android:visibility="gone"
+       android:id="@+id/rg_group"
+       android:layout_gravity="center_vertical"
+       android:orientation="vertical"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+      <RadioButton
+
+          android:id="@+id/rb_class1"
+          android:checked="true"
+          android:text="生产进度"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <RadioButton
+
+          android:id="@+id/rb_class2"
+          android:text="存货现存量"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <RadioButton
+          android:id="@+id/rb_class3"
+          android:checked="true"
+          android:text="库存存量"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <RadioButton
+          android:id="@+id/rb_class4"
+          android:text="库存需求"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <RadioButton
+          android:id="@+id/rb_class5"
+
+          android:text="生产状态"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <RadioButton
+          android:id="@+id/rb_class6"
+          android:text="设备运行"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+
+   </RadioGroup>
+   <RadioGroup
+       android:visibility="gone"
+       android:id="@+id/rg_lincon"
+       android:layout_gravity="center_vertical"
+       android:orientation="vertical"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+       <RadioButton
+           android:checked="true"
+           android:id="@+id/rb_lincon2"
+           android:text="到货状态"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+      <RadioButton
+          android:id="@+id/rb_lincon1"
+          android:text="补料预警"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+
+
+
+
+   </RadioGroup>
+   <RadioGroup
+       android:visibility="gone"
+       android:id="@+id/rg_ar"
+       android:layout_gravity="center_vertical"
+       android:orientation="vertical"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+      <RadioButton
+          android:checked="true"
+          android:id="@+id/rb_ar0"
+          android:text="设备运行"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <RadioButton
+          android:id="@+id/rb_ar1"
+
+          android:text="钎焊区生产看板"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <RadioButton
+          android:id="@+id/rb_ar2"
+
+          android:text="测漏区域生产看板"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <RadioButton
+          android:id="@+id/rb_ar3"
+
+          android:text="@string/ar"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <RadioButton
+          android:id="@+id/rb_ar4"
+
+          android:text="材料仓库配送看板"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <RadioButton
+          android:id="@+id/rb_ar5"
+
+          android:text="材料仓库配送看板2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <RadioButton
+          android:id="@+id/rb_ar6"
+
+          android:text="材料仓库库存水平看板"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <RadioButton
+          android:id="@+id/rb_ar7"
+
+          android:text="成品发货计划看板"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <RadioButton
+          android:id="@+id/rb_ar8"
+          android:text="质量异常看板"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+
+
+
+
+
+
+   </RadioGroup>
+
+   <RadioGroup
+       android:visibility="gone"
+       android:id="@+id/rg_wkf"
+       android:layout_gravity="center_vertical"
+       android:orientation="vertical"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+      <RadioButton
+          android:checked="true"
+          android:id="@+id/rb_wkf1"
+          android:text="生产进度"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <RadioButton
+          android:id="@+id/rb_wkf2"
+          android:text="存货现存量"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+
+
+   </RadioGroup>
+   <LinearLayout
+       android:visibility="gone"
+       android:orientation="vertical"
+       android:id="@+id/l_hs"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   <EditText
+       android:text="401"
+       android:inputType="number"
+       android:id="@+id/et_hs"
+       android:hint="请输入仓库号"
+       android:singleLine="true"
+       android:layout_width="100dp"
+       android:layout_height="wrap_content"/>
+   <RadioGroup
+
+       android:id="@+id/rg_hs"
+       android:layout_gravity="center_vertical"
+       android:orientation="vertical"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+      <RadioButton
+          android:checked="true"
+          android:id="@+id/rb_hs1"
+          android:text="库存看板"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <RadioButton
+
+          android:id="@+id/rb_hs2"
+          android:text="要货看板"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+
+
+
+   </RadioGroup>
+
+   </LinearLayout>
+</LinearLayout>
+</layout>

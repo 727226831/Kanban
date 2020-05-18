@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="data"
+            type="com.example.wkftv.DataBean" />
+    </data>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".LinconActivity">
+    <RelativeLayout
+        android:padding="5dp"
+        android:id="@+id/rl_title"
+        android:background="@color/green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_logo"
+            android:layout_width="35dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_centerInParent="true"
+            android:text="原料仓库库存明细看板"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+
+        android:id="@+id/rl_bottom"
+        android:layout_alignParentBottom="true"
+        android:background="@color/green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_centerInParent="true"
+            android:text="哈尔滨艾瑞排放控制技术股份有限公司"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginRight="5dp"
+            android:id="@+id/tv_time"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:text="2019年8月15日     10:27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+
+        android:visibility="gone"
+        android:background="@color/ar_bg"
+        android:layout_above="@id/rl_bottom"
+        android:id="@+id/rl_chart1"
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+        <RelativeLayout
+             android:layout_margin="10dp"
+            android:id="@+id/rl_bottomchart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:id="@+id/l_plan"
+                android:layout_centerVertical="true"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginBottom="7dp"
+                    android:textSize="16sp"
+                    android:text="配送进度：300/487"
+                    android:textColor="@color/white"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+
+                    android:textSize="16sp"
+                    android:text="配送进度：187/487"
+                    android:textColor="@color/white"
+                    android:id="@+id/tv_delivery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:id="@+id/l_percentage"
+                android:layout_centerVertical="true"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginBottom="7dp"
+                    android:textSize="16sp"
+                    android:text="61.6%"
+                    android:textColor="@color/white"
+                    android:id="@+id/tv_planpercentage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+
+                    android:textSize="16sp"
+                    android:text="38.6%"
+                    android:textColor="@color/white"
+                    android:id="@+id/tv_deliverypercentage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <com.github.mikephil.charting.charts.HorizontalBarChart
+
+                android:layout_toRightOf="@id/l_plan"
+                android:layout_toLeftOf="@id/l_percentage"
+                android:layout_gravity="center"
+                android:id="@+id/hbc_chart"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:padding="3dp"
+            android:background="@color/blue"
+            android:id="@+id/rl_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/ll_info"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_user"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/white" />
+                <TextView
+                    android:id="@+id/tv_id"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/white" />
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="钎焊炉区"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="负责人"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:id="@+id/tv_tellphone"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_info"
+
+                android:layout_toLeftOf="@id/ll_info"
+                android:layout_width="68dp"
+                android:layout_height="92dp"/>
+            <LinearLayout
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/iv_info"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_line"
+                    android:gravity="center"
+
+                    style="@style/text_info"/>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+
+                        android:id="@+id/tv_number"
+                        android:text="加工图号："
+                        style="@style/text_info"/>
+                    <TextView
+
+                        android:id="@+id/tv_efficiency"
+                        android:text="产出效率："
+                        style="@style/text_info"/>
+                    <TextView
+
+                        android:id="@+id/tv_total"
+                        android:text="总进度："
+                        style="@style/text_info"/>
+                </LinearLayout>
+                <LinearLayout
+
+                    android:orientation="horizontal"
+                    android:id="@+id/l_info2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_weight="3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+
+                            android:text="加工品名："
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
+                            android:layout_marginRight="5dp"
+                            android:id="@+id/tv_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:textColor="@color/white"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_good"
+                        android:text="良品率："
+                        style="@style/text_info"/>
+                    <TextView
+                        android:id="@+id/tv_plan"
+                        android:text=" 计划进度："
+                        style="@style/text_info"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+   <RelativeLayout
+
+       android:background="@color/ar_bg"
+       android:layout_below="@id/rl_title"
+       android:layout_above="@id/rl_chart1"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:visibility="gone"
+           android:layout_margin="10dp"
+           android:orientation="vertical"
+           android:layout_alignParentRight="true"
+           android:id="@+id/l_chart"
+           android:layout_width="200dp"
+           android:layout_height="match_parent">
+           <com.github.mikephil.charting.charts.PieChart
+               android:visibility="gone"
+               android:layout_weight="2"
+               android:id="@+id/pc_chart"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               />
+           <com.github.mikephil.charting.charts.BarChart
+               android:visibility="gone"
+               android:layout_weight="2"
+               android:id="@+id/bc_chart"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent" />
+
+       </LinearLayout>
+
+
+       <androidx.recyclerview.widget.RecyclerView
+
+           android:layout_toLeftOf="@id/l_chart"
+           android:id="@+id/rv_list"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"/>
+   </RelativeLayout>
+
+</RelativeLayout>
+</layout>

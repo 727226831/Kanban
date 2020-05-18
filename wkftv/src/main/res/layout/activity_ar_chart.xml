@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+
+    </data>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/gray_tv"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="500px"
+            android:layout_height="720px">
+
+            <TextView
+
+                android:layout_width="119px"
+                android:layout_height="32px"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="48dp"
+                android:id="@+id/tv_key1"
+                android:text="1"
+                style="@style/text_area1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="119px"
+                android:layout_height="32px"
+                android:layout_marginLeft="172dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/tv_key2"
+                android:text="2"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="41px"
+                android:layout_height="38px"
+                android:layout_marginLeft="108dp"
+                android:layout_marginTop="104dp"
+                android:id="@+id/tv_key3"
+                android:text="3"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="75px"
+                android:layout_height="78px"
+                android:layout_marginLeft="284dp"
+                android:layout_marginTop="200dp"
+                android:id="@+id/tv_key4"
+                android:text="4"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="79px"
+                android:layout_height="22px"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="36dp"
+                android:id="@+id/tv_key5"
+                android:text="5"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="32px"
+                android:layout_height="19px"
+                android:layout_marginLeft="216dp"
+                android:layout_marginTop="64dp"
+                android:id="@+id/tv_key6"
+                android:text="6"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="32px"
+                android:layout_height="19px"
+                android:layout_marginLeft="84dp"
+                android:layout_marginTop="55dp"
+                android:id="@+id/tv_key7"
+                android:text="7"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key8"
+                style="@style/text_area1"
+                android:layout_width="35px"
+                android:layout_height="10dp"
+                android:layout_marginLeft="216dp"
+                android:layout_marginTop="44dp"
+                android:text="8"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="32px"
+                android:layout_height="19px"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="88dp"
+                android:id="@+id/tv_key9"
+                android:text="9"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="123px"
+                android:layout_height="54px"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="96dp"
+                android:id="@+id/tv_key10"
+                android:text="10"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="63px"
+                android:layout_height="45px"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="100dp"
+                android:id="@+id/tv_key11"
+                android:text="11"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="32px"
+                android:layout_height="19px"
+                android:layout_marginLeft="176dp"
+                android:layout_marginTop="112dp"
+                android:id="@+id/tv_key12"
+                android:text="12"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="38px"
+                android:layout_height="25px"
+                android:layout_marginLeft="196dp"
+                android:layout_marginTop="108dp"
+                android:id="@+id/tv_key13"
+                android:text="13"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="28px"
+                android:layout_height="83px"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="172dp"
+                android:id="@+id/tv_key14"
+                android:text="14"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="39px"
+                android:layout_height="45px"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="84dp"
+                android:id="@+id/tv_key15"
+                android:text="15"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="39px"
+                android:layout_height="52px"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="132dp"
+                android:id="@+id/tv_key16"
+                android:text="16"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="75px"
+                android:layout_height="78px"
+                android:layout_marginLeft="284dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/tv_key17"
+                android:text="17"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="42px"
+                android:layout_height="34px"
+                android:layout_marginLeft="116dp"
+                android:layout_marginTop="172dp"
+                android:id="@+id/tv_key18"
+                android:text="18"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="44px"
+                android:layout_height="37px"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="172dp"
+                android:id="@+id/tv_key19"
+                android:text="19"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="44px"
+                android:layout_height="37px"
+                android:layout_marginLeft="168dp"
+                android:layout_marginTop="172dp"
+                android:id="@+id/tv_key20"
+                android:text="20"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="83px"
+                android:layout_height="28px"
+                android:layout_marginLeft="196dp"
+                android:layout_marginTop="172dp"
+                android:id="@+id/tv_key21"
+                android:text="21"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="42px"
+                android:layout_height="83px"
+                android:layout_marginLeft="72dp"
+                android:layout_marginTop="172dp"
+                android:id="@+id/tv_key22"
+                android:text="22"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="28px"
+                android:layout_height="83px"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="116dp"
+                android:id="@+id/tv_key23"
+                android:text="23"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="31px"
+                android:layout_height="83px"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="172dp"
+                android:id="@+id/tv_key24"
+                android:text="24"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="720px"
+            android:layout_marginLeft="650px">
+
+            <TextView
+                android:gravity="left"
+                android:id="@+id/tv_key80"
+                android:background="@color/gray_tv1"
+                style="@style/text_area1"
+                android:layout_width="400px"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="80"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+
+                android:id="@+id/tv_key25"
+                style="@style/text_area1"
+                android:layout_width="91px"
+                android:layout_height="137px"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="56dp"
+                android:background="@color/blue"
+                android:text="25"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key26"
+                style="@style/text_area1"
+                android:layout_width="55px"
+                android:layout_height="55px"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/blue"
+                android:text="26"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key27"
+                style="@style/text_area1"
+                android:layout_width="297px"
+                android:layout_height="70px"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="44dp"
+                android:background="@color/blue"
+                android:text="27"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key28"
+                style="@style/text_area1"
+                android:layout_width="170px"
+                android:layout_height="40px"
+                android:layout_marginLeft="236dp"
+                android:layout_marginTop="110px"
+                android:background="@color/blue"
+                android:text="28"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key29"
+                style="@style/text_area1"
+                android:layout_width="94px"
+                android:layout_height="53px"
+                android:layout_marginLeft="76dp"
+                android:layout_marginTop="92dp"
+                android:background="@color/blue"
+                android:text="29"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key30"
+                style="@style/text_area1"
+                android:layout_width="145px"
+                android:layout_height="50px"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="132dp"
+                android:background="@color/blue"
+                android:text="30"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key31"
+                style="@style/text_area1"
+                android:layout_width="32px"
+                android:layout_height="32px"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="160dp"
+                android:background="@color/blue"
+                android:text="31"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"  />
+
+            <TextView
+                android:id="@+id/tv_key32"
+                style="@style/text_area1"
+                android:layout_width="145px"
+                android:layout_height="50px"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="180dp"
+                android:background="@color/blue"
+                android:text="32"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key33"
+                style="@style/text_area1"
+                android:layout_width="32px"
+                android:layout_height="32px"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="208dp"
+                android:background="@color/blue"
+                android:text="33"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key34"
+                style="@style/text_area1"
+                android:layout_width="145px"
+                android:layout_height="50px"
+                android:layout_marginLeft="148dp"
+                android:layout_marginTop="144dp"
+                android:background="@color/blue"
+                android:text="34"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key35"
+                style="@style/text_area1"
+                android:layout_width="32px"
+                android:layout_height="32px"
+                android:layout_marginLeft="192dp"
+                android:layout_marginTop="124dp"
+                android:background="@color/blue"
+                android:text="35"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key36"
+                style="@style/text_area1"
+                android:layout_width="145px"
+                android:layout_height="50px"
+                android:layout_marginLeft="148dp"
+                android:layout_marginTop="192dp"
+                android:background="@color/blue"
+                android:text="36"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key37"
+                style="@style/text_area1"
+                android:layout_width="32px"
+                android:layout_height="32px"
+                android:layout_marginLeft="192dp"
+                android:layout_marginTop="172dp"
+                android:background="@color/blue"
+                android:text="37"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key38"
+                style="@style/text_area1"
+                android:layout_width="103px"
+                android:layout_height="30px"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="455px"
+                android:background="@color/blue"
+                android:text="38"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key39"
+                style="@style/text_area1"
+                android:layout_width="103px"
+                android:layout_height="30px"
+                android:layout_marginLeft="172dp"
+                android:layout_marginTop="455px"
+                android:background="@color/blue"
+                android:text="39"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key40"
+                style="@style/text_area1"
+                android:layout_width="90px"
+                android:layout_height="55px"
+                android:layout_marginLeft="72dp"
+                android:layout_marginTop="515px"
+                android:background="@color/blue"
+                android:text="40"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key41"
+                style="@style/text_area1"
+                android:layout_width="90px"
+                android:layout_height="55px"
+                android:layout_marginLeft="176dp"
+                android:layout_marginTop="515px"
+                android:background="@color/blue"
+                android:text="41"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key42"
+                style="@style/text_area1"
+                android:layout_width="90px"
+                android:layout_height="55px"
+                android:layout_marginLeft="124dp"
+                android:layout_marginTop="515px"
+                android:background="@color/blue"
+                android:text="42"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key43"
+                style="@style/text_area1"
+                android:layout_width="90px"
+                android:layout_height="55px"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="515px"
+                android:background="@color/blue"
+                android:text="43"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key44"
+                style="@style/text_area1"
+                android:layout_width="410px"
+                android:layout_height="90px"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="600px"
+                android:background="@color/blue"
+                android:text="44"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key45"
+                style="@style/text_area1"
+                android:layout_width="140px"
+                android:layout_height="135px"
+                android:layout_marginLeft="248dp"
+                android:layout_marginTop="570px"
+                android:background="@color/blue"
+                android:text="45"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key46"
+                style="@style/text_area1"
+                android:layout_width="90px"
+                android:layout_height="60px"
+                android:layout_marginLeft="248dp"
+                android:layout_marginTop="485px"
+                android:background="@color/blue"
+                android:text="46"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key47"
+                style="@style/text_area1"
+                android:layout_width="19dp"
+                android:layout_height="13dp"
+                android:layout_marginLeft="304dp"
+                android:layout_marginTop="240dp"
+                android:background="@color/blue"
+                android:text="47"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key48"
+                style="@style/text_area1"
+                android:layout_width="30px"
+                android:layout_height="30px"
+                android:layout_marginLeft="304dp"
+                android:layout_marginTop="136dp"
+                android:background="@color/blue"
+                android:text="48"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key49"
+                style="@style/text_area1"
+                android:layout_width="30px"
+                android:layout_height="30px"
+                android:layout_marginLeft="304dp"
+                android:layout_marginTop="80dp"
+                android:background="@color/blue"
+                android:text="49"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key50"
+                style="@style/text_area1"
+                android:layout_width="30px"
+                android:layout_height="30px"
+                android:layout_marginLeft="304dp"
+                android:layout_marginTop="188dp"
+                android:background="@color/blue"
+                android:text="50"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key51"
+                style="@style/text_area1"
+                android:layout_width="30px"
+                android:layout_height="30px"
+                android:layout_marginLeft="304dp"
+                android:layout_marginTop="160dp"
+                android:background="@color/blue"
+                android:text="51"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key52"
+                style="@style/text_area1"
+                android:layout_width="30px"
+                android:layout_height="30px"
+                android:layout_marginLeft="256dp"
+                android:layout_marginTop="160dp"
+                android:background="@color/blue"
+                android:text="52"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key53"
+                style="@style/text_area1"
+                android:layout_width="30px"
+                android:layout_height="30px"
+                android:layout_marginLeft="256dp"
+                android:layout_marginTop="136dp"
+                android:background="@color/blue"
+                android:text="53"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key54"
+                style="@style/text_area1"
+                android:layout_width="30px"
+                android:layout_height="30px"
+                android:layout_marginLeft="304dp"
+                android:layout_marginTop="104dp"
+                android:background="@color/blue"
+                android:text="54"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key55"
+                style="@style/text_area1"
+                android:layout_width="30px"
+                android:layout_height="30px"
+                android:layout_marginLeft="256dp"
+                android:layout_marginTop="108dp"
+                android:background="@color/blue"
+                android:text="55"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key56"
+                style="@style/text_area1"
+                android:layout_width="30px"
+                android:layout_height="30px"
+                android:layout_marginLeft="256dp"
+                android:layout_marginTop="80dp"
+                android:background="@color/blue"
+                android:text="56"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key57"
+                style="@style/text_area1"
+                android:layout_width="30px"
+                android:layout_height="30px"
+                android:layout_marginLeft="304dp"
+                android:layout_marginTop="212dp"
+                android:background="@color/blue"
+                android:text="57"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key58"
+                style="@style/text_area1"
+                android:layout_width="30px"
+                android:layout_height="18px"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="224dp"
+                android:background="@color/blue"
+                android:text="58"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key59"
+                style="@style/text_area1"
+                android:layout_width="30px"
+                android:layout_height="18px"
+                android:layout_marginLeft="340dp"
+                android:layout_marginTop="232dp"
+                android:background="@color/blue"
+                android:text="59"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key60"
+                style="@style/text_area1"
+                android:layout_width="30px"
+                android:layout_height="18px"
+                android:layout_marginLeft="256dp"
+                android:layout_marginTop="188dp"
+                android:background="@color/blue"
+                android:text="60"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key61"
+                style="@style/text_area1"
+                android:layout_width="30px"
+                android:layout_height="18px"
+                android:layout_marginLeft="256dp"
+                android:layout_marginTop="210dp"
+                android:background="@color/blue"
+                android:text="61"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:background="@color/line"
+            android:layout_marginTop="720px"
+            android:layout_width="match_parent"
+            android:layout_height="35px" />
+        <TextView
+            android:background="@color/line"
+            android:layout_marginLeft="500px"
+            android:layout_width="40px"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_marginTop="500px"
+            android:layout_width="40px"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1500px"
+            android:background="@color/line" />
+        <TextView
+            android:layout_marginTop="500px"
+            android:layout_width="78px"
+            android:layout_height="40px"
+            android:layout_marginLeft="1500px"
+            android:background="@color/line" />
+        <TextView
+            android:layout_marginTop="400px"
+            android:layout_width="40px"
+            android:layout_height="140px"
+            android:layout_marginLeft="1550px"
+            android:background="@color/line" />
+        <TextView
+            android:layout_marginTop="400px"
+            android:layout_width="match_parent"
+            android:layout_height="15px"
+            android:layout_marginLeft="1550px"
+            android:background="@color/line" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_marginLeft="1650px"
+            android:layout_marginTop="420px"
+            android:layout_width="match_parent"
+            android:layout_height="300px">
+
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="match_parent"
+                android:layout_height="60px"
+                android:layout_marginTop="30dp"
+                android:background="@color/blue"
+                android:id="@+id/tv_key62"
+                android:text="62"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="match_parent"
+                android:layout_height="60px"
+                android:layout_marginTop="110dp"
+                android:background="@color/blue"
+                android:id="@+id/tv_key63"
+                android:text="63"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/text_area1"
+                android:layout_width="match_parent"
+                android:layout_height="60px"
+                android:layout_marginTop="70dp"
+                android:background="@color/blue"
+                android:id="@+id/tv_key64"
+                android:text="64"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_marginTop="755px"
+            android:layout_marginLeft="660px"
+            android:layout_width="740px"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_key65"
+                android:text="65"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                style="@style/text_area1"
+                android:layout_width="match_parent"
+                android:layout_height="35px" />
+
+            <TextView
+                android:id="@+id/tv_key67"
+                android:text="67"
+                style="@style/text_area1"
+                android:layout_width="250px"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/tv_key66"
+                android:text="66"
+                android:layout_marginLeft="300px"
+                style="@style/text_area1"
+                android:layout_width="195px"
+                android:layout_height="20px"
+                android:layout_marginTop="30dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/tv_key68"
+                android:text="68"
+                android:layout_marginLeft="300px"
+                style="@style/text_area1"
+                android:layout_width="195px"
+                android:layout_height="20px"
+                android:layout_marginTop="42dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/tv_key69"
+                android:text="69"
+                android:layout_marginLeft="300px"
+                style="@style/text_area1"
+                android:layout_width="195px"
+                android:layout_height="20px"
+                android:layout_marginTop="54dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key70"
+                android:text="70"
+                android:layout_marginLeft="300px"
+                style="@style/text_area1"
+                android:layout_width="195px"
+                android:layout_height="20px"
+                android:layout_marginTop="66dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/tv_key71"
+                android:text="71"
+                android:layout_marginLeft="300px"
+                style="@style/text_area1"
+                android:layout_width="195px"
+                android:layout_height="20px"
+                android:layout_marginTop="78dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/tv_key72"
+                android:text="72"
+                android:layout_marginLeft="300px"
+                style="@style/text_area1"
+                android:layout_width="195px"
+                android:layout_height="20px"
+                android:layout_marginTop="90dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/tv_key73"
+                android:text="73"
+                android:layout_marginLeft="300px"
+                style="@style/text_area1"
+                android:layout_width="195px"
+                android:layout_height="20px"
+                android:layout_marginTop="102dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key74"
+                android:text="74"
+                android:layout_marginLeft="300px"
+                style="@style/text_area1"
+                android:layout_width="195px"
+                android:layout_height="20px"
+                android:layout_marginTop="114dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/tv_key75"
+                android:text="75"
+                android:layout_marginLeft="300px"
+                style="@style/text_area1"
+                android:layout_width="195px"
+                android:layout_height="20px"
+                android:layout_marginTop="126dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/tv_key76"
+                android:text="76"
+                android:layout_marginLeft="300px"
+                style="@style/text_area1"
+                android:layout_width="195px"
+                android:layout_height="20px"
+                android:layout_marginTop="138dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/tv_key77"
+                android:text="77"
+                android:layout_marginLeft="300px"
+                style="@style/text_area1"
+                android:layout_width="195px"
+                android:layout_height="20px"
+                android:layout_marginTop="150dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_key78"
+                android:text="78"
+                android:layout_marginLeft="300px"
+                style="@style/text_area1"
+                android:layout_width="195px"
+                android:layout_height="20px"
+                android:layout_marginTop="150dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+
+
+                android:id="@+id/tv_key79"
+                android:text="测\n漏\n待\n检\n测"
+                style="@style/text_area1"
+                android:layout_width="120px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="40dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_marginTop="755px"
+            android:layout_marginLeft="1540px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="设备状态图例"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:drawablePadding="10dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:drawableLeft="@mipmap/ic_red"
+                    android:text="设备停机状态"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:drawablePadding="10dp"
+                    android:textSize="20sp"
+
+                    android:drawableLeft="@mipmap/ic_green"
+                    android:text="设备运行中"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:drawablePadding="10dp"
+                    android:textSize="20sp"
+                    android:drawableLeft="@mipmap/ic_yellow"
+                    android:text="设备维修中"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </RelativeLayout>
+        <RelativeLayout
+
+            android:orientation="vertical"
+            android:layout_marginTop="755px"
+            android:padding="10dp"
+            android:layout_width="500px"
+            android:layout_height="match_parent">
+            <LinearLayout
+
+               android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+
+                    android:src="@mipmap/ic_logo1"
+                    android:layout_width="450px"
+                    android:layout_height="64px" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="设备运行及环境监测系统"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</layout>

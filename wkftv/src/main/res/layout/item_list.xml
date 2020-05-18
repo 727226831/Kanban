@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="data"
+            type="com.example.wkftv.DataBean" />
+    </data>
+<LinearLayout
+    android:id="@+id/ll_layout"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+        <TextView
+            android:text="@{data.item1}"
+            style="@style/tv"
+            />
+        <TextView
+            android:text="@{data.item2}"
+            style="@style/tv"
+             />
+
+        <TextView
+            android:text="@{data.item3}"
+            style="@style/tv" />
+        <TextView
+            android:text="@{data.item4}"
+            style="@style/tv" />
+
+        <TextView
+            android:text="@{data.item5}"
+            style="@style/tv" />
+        <TextView
+            android:text="@{data.item6}"
+            style="@style/tv"/>
+
+        <TextView
+            android:text="@{data.item7}"
+            style="@style/tv" />
+
+
+        <TextView
+            android:text="@{data.item8}"
+            style="@style/tv"/>
+        <TextView
+            android:text="@{data.item9}"
+            style="@style/tv" />
+
+        <TextView
+            android:text="@{data.item10}"
+            style="@style/tv" />
+        <TextView
+            android:text="@{data.item11}"
+            style="@style/tv" />
+
+        <TextView
+            android:text="@{data.item12}"
+            style="@style/tv"/>
+        <TextView
+            android:text="@{data.item13}"
+            style="@style/tv" />
+
+        <TextView
+
+            android:text="@{data.item14}"
+            style="@style/tv"/>
+        <TextView
+            android:text="@{data.item15}"
+            style="@style/tv" />
+
+
+
+</LinearLayout>
+</layout>

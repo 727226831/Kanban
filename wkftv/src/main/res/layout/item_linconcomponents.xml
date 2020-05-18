@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="data"
+            type="com.example.wkftv.DataBean" />
+
+    </data>
+    <LinearLayout
+        android:id="@+id/ll_layout"
+        android:orientation="horizontal"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <TextView
+            android:layout_weight="8"
+            android:textColor="@{data.textColor}"
+            android:text="@{data.item1}"
+            style="@style/tv_lincon_componments"
+            />
+        <TextView
+            android:layout_weight="8.5"
+            android:textColor="@{data.textColor}"
+            android:text="@{data.item2}"
+            style="@style/tv_lincon_componments"
+            />
+
+        <TextView
+            android:layout_weight="8"
+            android:textColor="@{data.textColor}"
+            android:text="@{data.item3}"
+            style="@style/tv_lincon_componments" />
+        <TextView
+            android:layout_weight="9"
+            android:textColor="@{data.textColor}"
+            android:text="@{data.item4}"
+            android:id="@+id/tv_row4"
+            style="@style/tv_lincon_componments"
+
+
+            />
+
+        <TextView
+            android:layout_weight="9"
+            android:textColor="@{data.textColor}"
+            android:text="@{data.item5}"
+            style="@style/tv_lincon_componments" />
+        <TextView
+
+            android:layout_weight="9"
+            android:textColor="@{data.textColor}"
+            android:text="@{data.item6}"
+            style="@style/tv_lincon_componments"/>
+
+
+
+
+
+
+
+    </LinearLayout>
+</layout>

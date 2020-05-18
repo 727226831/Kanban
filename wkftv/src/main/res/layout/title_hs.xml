@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="data"
+            type="com.example.wkftv.DataBean" />
+
+    </data>
+    <LinearLayout
+        android:background="@color/blue"
+        android:id="@+id/ll_layout"
+        android:orientation="horizontal"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <TextView
+            android:layout_weight="9"
+            android:textColor="@color/white"
+            android:text="存货编码"
+            style="@style/tv"
+            />
+        <TextView
+            android:layout_weight="7"
+            android:textColor="@color/white"
+            android:text="存货名称"
+            style="@style/tv"
+            />
+
+        <TextView
+            android:layout_weight="8.5"
+            android:textColor="@color/white"
+            android:text="零件号"
+            style="@style/tv" />
+        <TextView
+            android:layout_weight="9"
+            android:textColor="@color/white"
+            android:text="库存数量"
+            style="@style/tv" />
+
+        <TextView
+            android:layout_weight="9"
+            android:textColor="@color/white"
+            android:text="待入数量"
+            style="@style/tv" />
+        <TextView
+
+            android:layout_weight="9"
+            android:textColor="@color/white"
+            android:text="待出数量"
+            style="@style/tv"/>
+
+        <TextView
+            android:layout_weight="8.5"
+            android:textColor="@color/white"
+            android:text="货位"
+            style="@style/tv" />
+
+
+        <TextView
+            android:layout_weight="9"
+            android:textColor="@color/white"
+            android:text="安全库存"
+            style="@style/tv"/>
+
+
+
+
+
+    </LinearLayout>
+</layout>

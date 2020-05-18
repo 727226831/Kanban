@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="data"
+            type="com.example.wkftv.DataBean" />
+    </data>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:id="@+id/ll_qualified"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_key"
+            android:drawableRight="@mipmap/ic_choose"
+            android:layout_margin="@dimen/layout_margin"
+            android:text="完工合格"
+            style="@style/item_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+</LinearLayout>
+</layout>
